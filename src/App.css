@@ -1,0 +1,547 @@
+/**Styling of the element**/
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #131a3b;
+}
+.App{
+  width: 100%;
+  height: 80%;
+}
+#heading2 {
+  margin-right: auto;
+  margin-left: auto;
+    margin-top: 600px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    background: linear-gradient(60deg, #9cb9e6 50%, #9af0ff 50%);
+    font-family: "SOFADI ONE";
+  border-radius:  13px 13px 0 0;
+  padding-left:10px; 
+  width: 100%;
+  position: absolute;
+
+  }
+  #heading2 button {
+  width: 97%;
+  background:rgb(81, 168, 244);
+  border: 2px solid rgb(53, 69, 107);
+  border-radius: 30px;
+  height: 30px;
+  padding:10px 5px 9px 40%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'SOFADI ONE';
+}
+#heading2 section{
+  font-family: 'SOFADI ONE';
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  background:  linear-gradient(170deg, #b4b1b2 20%,#2e4065 80%, #076981 80%);
+  padding: 5px 5px 5px 8px;
+  border-radius: 10px 10px 0 0;
+  margin-left: -10px;
+  margin-bottom: 9px;
+  color:#b7efea
+}
+#heading2 span{
+  display: flex;
+  justify-content: flex-end;
+  margin-top:-27px;
+  padding-right: 10px;
+}
+#in {
+  font-family: Pacifico, sans-serif; 
+  background: url("frontvideo.gif")
+  no-repeat center center fixed;
+  height: 690px;
+  margin-top: 200px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  opacity: 0.9;
+  width:100%;
+
+}
+#design{
+width: 100px;
+height: 120px;
+background: linear-gradient(40deg, #7ed3f7 20%, #63a1e9 80%);
+margin-left: auto;
+margin-right: auto;
+padding-top: 10px;
+border-radius: 50px 50px 10px 10px;
+position: relative;
+cursor:grab;
+}
+#design1{
+  width: 100px;
+  height: 50px;
+  margin-bottom: 15px;
+  margin-top: -10px;
+border-radius: 50px 50px 0 0;
+background: linear-gradient(30deg, blue 20%, gold 80%);
+cursor: grabbing;
+}
+#design2{
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+border-radius: 0px 0px 50px 50px;
+background: linear-gradient(30deg, blue 20%, gold 80%);
+cursor: grab;
+}
+#design1:hover{
+  transform: translateY(14px);
+
+}
+
+#page-wrapper {
+  position: relative;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+#nav-bar {
+
+  background: linear-gradient(40deg, #f77e9a 20%, #7cc8db 80%);
+  border-radius: 10px 10px;
+  width:90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top:13px;
+  margin-bottom:5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0.6, 0.9);
+}
+@media (max-width: 600px) {
+  #page-wrapper {
+   width:100%;
+  }
+  #secondnav {
+    margin-left: -40px;
+  }
+  #nav1 {
+    width:50%;
+  }
+}
+li{
+  list-style:none;
+}
+
+a {
+  color: rgb(86, 66, 15);
+  text-decoration: none;
+}
+a:hover {
+  color: salmon;
+}
+.container {
+  max-width: 1000px;
+  width: auto;
+  margin: auto;
+  justify-content: center;
+
+}
+.heading {
+  align-items: center;
+  justify-content: center;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+  width: 400px;
+  margin-top: 50px;
+  color: rgb(10, 37, 53);
+  margin-bottom: 10px;
+}
+.heading h1 {
+  margin-top: -130px;
+  font-weight: 400;
+  font-size:40px;
+  background: linear-gradient(40deg, #132872 20%, #7cc8db 80%);
+  font-family: "Protest Guerrilla";
+border-radius:  3px; 
+user-select: none;
+
+}
+#secondnav i{
+  color: rgb(161, 98, 3);
+  cursor: pointer;
+}
+#secondnav i:hover{
+  color: salmon;
+}
+
+.btn {
+  text-align: center;
+  align-items: center;
+  display: block;
+  padding: 10px;
+  height: 20px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+header {
+  position: fixed;
+  top:0;
+  min-height: 75px;
+  padding: 5px 10px 7px 5px;
+  width: 100%;
+  margin: -5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(40deg, #b4b1b2 20%,#2e4065 80%, #076981 80%);
+
+}
+#nav1 {
+  align-items: center;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  width: 85%;
+  margin-right: 20px;
+  font-family:"Sofadi One";
+  font-size: 85%;
+  font-weight: 600;
+
+}
+#nav1 div {
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin: 7px;
+  padding-left: 3px;
+  
+}
+#nav1 div:hover {
+  /* use background: white or any color to highlight each nav-list buttons*/
+  border-radius: 10px;
+  margin-bottom: 5px;
+  transform: translateX(15px);
+  background: snow;
+
+}
+
+.logo {
+  position:relative;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.logo > img {
+  width: 90px;
+  height: 90px;
+  max-height:300px;
+  display: flex;
+  justify-content: content;
+  align-items:center;
+  text-align:center;
+  margin-left:0px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  box-shadow: 1px 4px 5px rgba(0, 0, 6, 0.7);
+
+
+  }
+
+#secondnav{
+  background:linear-gradient(40deg, #d6da6e 20%, #7cc8db 80%);
+  width:20%;
+  font-family: "Sofadi One";
+  font-weight: 600;
+  padding: 7px;
+  margin-top: 4px;
+  margin-right:12px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: dotted, underline;
+  box-shadow: 1px 4px 5px rgba(0, 0, 6, 0.7);
+}
+#secondnav li{
+  padding: 3px;
+  
+}
+
+#secondnav li:hover{
+  border-radius: 10px;
+  margin-bottom: 5px;
+  transform: translateX(14px);
+  background: snow;
+  text-decoration: olivedrab;
+}
+
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: row;
+  }
+  
+  }
+
+ /* Projects section */
+  
+ .projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: var(--main-ash);
+}
+
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem;
+}
+
+@media (max-width: 28.75em) {
+  .projects-section-header {
+    font-size: 4rem;
+  }
+}
+
+.projects-grid {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 0.1rem;
+}
+
+@media (max-width: 30.625em) {
+  .projects-section {
+    padding: 6rem 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project {
+  background: rgb(161, 184, 194);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius:25px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Sofadi One';
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(66, 74, 112);
+  margin-top: -50px;
+}
+
+.code {
+  color: var(--main-ash);
+  transition: color 0.3s ease-out;
+}
+.project p {
+  padding: 15px 10px 15px 10px;
+}
+
+.project p:hover {
+  color: #111133;
+  transform: translateY(22px);
+  background: rgb(92, 147, 151);
+  border-radius: 50px;
+}
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 2rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.btn-see-all {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  background: var(--main-color);
+}
+
+.btn-see-all:hover {
+  padding: 20px 20px 20px 20px;
+  color:#a6ae75;
+}
+
+.btn-see-all:hover > i {
+  transform: translateX(2px);
+}
+
+.btn-see-all > i {
+  margin-left: 10px;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+
+/* Footer Section*/
+
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  background: rgb(187, 203, 203);
+  border-top: 10px solid var(--main-color);
+  font-size: 16px;
+  margin-bottom: 0px;
+  margin-top: 250px;
+  width: 100%;
+}
+
+footer > p {
+  margin: 1rem;
+}
+footer #rec:hover {
+  color: chocolate;
+}
+footer i {
+  vertical-align: middle;
+}
+
+footer > div {
+  margin-right: 2%;
+  border-left: 2px solid var(--main-color);
+  padding-left: 20%;
+}
+#footerimage {
+  width:20px;
+  border-radius: 50%;
+  height: 20px;
+  margin-bottom: -5px;
+  margin-top: 28px;
+  
+}
+
+#foot {
+  margin-left: -90px;
+  width: 400px;
+  font-size: 13px;
+  text-align:left;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-right:25px;
+}
+#foot p{
+  text-align:start;
+}
+#build {
+  margin-top: 70px;
+  width: 200px;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ margin-left: 5px;
+ font-size: 13px;
+ font-family: "SOFADI ONE";
+ background: snow;
+ user-select: none;
+}
+
+#address{
+  margin-top: 32px;
+  width: 500px;
+  font-size: 13px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align:center;
+margin-left: -30px;  
+padding-left: 5px;
+}
+#contactus p{
+  text-align:center;
+}
+#contactus {
+  margin-top: 32px;
+  width: 700px;
+  font-size: 13px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left:-120px;
+  text-align:center;
+}
+i {
+  margin-top: -3.5px;
+}
+#last{
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 12px;
+  margin-bottom: -12px;
+  background: silver;
+}
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+    font-size: 7.5px;
+  }
+  footer > div {
+    border-left: 2px solid var(--main-color);
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #build {
+      margin-top: 70px;
+      width: 400px;
+      padding: 10px;
+     margin-left: 20px;
+     font-size: 7x;
+  }
+  #address{
+      margin-top: 37px;
+      width: 400px;
+      font-size: 7px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #contactus {
+      margin-top: 37px;
+      width: 500px;
+      font-size: 7px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}

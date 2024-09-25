@@ -1,0 +1,438 @@
+/**Styling of the element**/
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body {
+  background-color: #e7edef;
+   font-family: 'Sofadi One';
+   color:#1c305a;
+}
+#page-wrapper {
+  position: relative;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  box-shadow: 2px 3px 2px rgba(0, 0.8, 0.8, 0.0);
+ 
+}
+#nav-bar {
+  background: linear-gradient(40deg, #f77e9a 20%, #7cc8db 80%);
+  border-radius: 10px 10px;
+  width:90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top:13px;
+  margin-bottom:5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+#gally{
+  user-select: none;
+}
+#navy:hover {
+  border-radius: 10px;
+  margin-bottom: 5px;
+  transform: translateX(15px);
+  background: snow;
+
+}
+
+li{
+  list-style:none;
+}
+
+a {
+  color: rgb(86, 66, 15);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(120, 99, 96);
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+  margin-left: 20px;
+
+
+}
+@media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+      font-size: 7.5px;
+    }
+    .container h2{
+        text-align: center;
+        background: rgb(98, 134, 199);
+        width: 50%;
+        padding:4px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 12px 12px 0 0;
+    }
+}
+
+#video1{
+margin-right:auto;
+margin-left:auto;
+margin-bottom: 40px;
+padding: 5px;
+border: 20px 20px 20px 20px solid rgb(43, 92, 88);
+}
+.container h2{
+    text-align: center;
+    background: linear-gradient(120deg, rgb(202, 109, 202) 40%, seashell 60%);
+    padding:3px;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 12px 12px 0 0;
+    user-select: none;
+}
+#video1 p{
+   
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    margin-left:16px;
+}
+iframe{
+    border: 10px solid rgb(57, 71, 70);
+    height: 60%;
+    border-radius: 5px;
+}
+
+
+#next img{
+    width: 350px;
+    height: 50%;
+    border-radius: 5px;
+    border: 10px solid rgb(57, 71, 70);
+}
+.heading {
+  align-items: center;
+  justify-content: center;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  margin-top: 159px;
+  color: salmon;
+  margin-bottom: 10px;
+}
+.heading h1 {
+  margin-top: 170px;
+  font-weight: 700;
+  font-size:22px;
+  background: linear-gradient(40deg, #132872 20%, #7cc8db 80%);
+  font-family: 'SOFADI ONE';
+border-radius:  3px; 
+user-select: none;
+
+}
+
+.btn {
+  text-align: center;
+  align-items: center;
+  display: block;
+  padding: 10px;
+  height: 20px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+}
+
+
+header {
+  position: fixed;
+  top:0;
+  min-height: 75px;
+  padding: 5px 10px 7px 5px;
+  width: 100%;
+  margin: -5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(40deg, #b4b1b2 20%,#2e4065 80%, #076981 80%);
+
+}
+#nav1 {
+  align-items: center;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  width: 85%;
+  margin-right: 20px;
+  font-family:"Sofadi One";
+  font-size: 85%;
+  font-weight: 600;
+
+}
+#nav1 div {
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin: 7px;
+  padding-left: 3px;
+  
+}
+
+.logo {
+  position:relative;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.logo > img {
+  width: 90px;
+  height: 90px;
+  max-height:300px;
+  display: flex;
+  justify-content: content;
+  align-items:center;
+  text-align:center;
+  margin-left:0px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  box-shadow: 1px 4px 5px rgba(0, 0, 6, 0.7);
+
+  }
+
+#secondnav{
+  background:linear-gradient(40deg, #d6da6e 20%, #7cc8db 80%);
+  width:20%;
+  font-family: "Sofadi One";
+  font-weight: 600;
+  padding: 7px;
+  margin-top: 4px;
+  margin-right:12px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: dotted, underline;
+  box-shadow: 1px 4px 5px rgba(0, 0, 6, 0.7);
+
+}
+#secondnav li{
+  padding: 3px;
+  
+}
+#secondnav li:hover{
+  border-radius: 10px;
+  margin-bottom: 5px;
+  transform: translateX(14px);
+  background: snow;
+  text-decoration: olivedrab;
+}
+
+  h2 {
+    font-family: lobster, lobster-two, "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 15px;
+  }
+  
+  h2 {
+    font-size: 12px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--main-light);
+  }
+  
+  section img {
+    display: block;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+ 
+  
+  /* Projects section */
+  
+  .projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--main-ash);
+  }
+  
+  .projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem;
+  }
+  
+
+  
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+  }
+  
+  .btn-see-all {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    background: var(--main-color);
+  }
+  
+  .btn-see-all:hover {
+    padding: 20px 20px 20px 20px;
+    color:#a6ae75;
+  }
+  
+  .btn-see-all:hover > i {
+    transform: translateX(2px);
+  }
+  
+  .btn-see-all > i {
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+  }
+  
+  /* Footer Section*/
+  
+  footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    background: rgb(187, 203, 203);
+    border-top: 10px solid var(--main-color);
+    font-size: 16px;
+    margin-bottom: 0px;
+    height:200px;
+  }
+  
+  footer > p {
+    margin: 1rem;
+  }
+  footer #rec:hover {
+    color: chocolate;
+  }
+  footer i {
+    vertical-align: middle;
+    margin-top: -2px;
+  }
+  footer > div {
+    margin-right: 2%;
+    border-left: 2px solid var(--main-color);
+    padding-left: 20%;
+  }
+  #footerimage {
+    width:20px;
+    border-radius: 50%;
+    height: 20px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+    
+  }
+
+  #foot {
+    margin-left: -90px;
+    width: 450px;
+    font-size: 13px;
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right:-50px;
+}
+#foot p{
+    text-align: start;
+}
+#build {
+    margin-top: 70px;
+    width: 400px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   margin-left: 5px;
+   font-size: 13px;
+   background: snow;
+   user-select: none;
+}
+#address{
+    margin-top: 37px;
+    margin-left: -20px;
+    width: 500px;
+    font-size: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+}
+#contactus {
+    margin-top: 37px;
+    width: 700px;
+    font-size: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:-90px;
+    margin-right: 5px;
+}
+#last{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12px;
+    margin-bottom: -80px;
+    background: silver;
+}
+  @media (max-width: 28.75em) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+      font-size: 7.5px;
+    }
+    footer > div {
+      border-left: 2px solid var(--main-color);
+      padding-left: 10%;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #build {
+        margin-top: 70px;
+        width: 400px;
+        padding: 10px;
+       margin-left: 20px;
+       font-size: 7x;
+    }
+    #address{
+        margin-top: 37px;
+        width: 400px;
+        font-size: 7px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #contactus {
+        margin-top: 37px;
+        width: 500px;
+        font-size: 7px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  }
+  
