@@ -21,7 +21,7 @@ body {
 
   background: linear-gradient(40deg, #f77e9a 20%, #7cc8db 80%);
   border-radius: 10px 10px;
-  width:90%;
+  width:80%;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 15px;
@@ -173,7 +173,7 @@ header {
   font-weight: 600;
   padding: 7px;
   margin-top: 4px;
-  margin-right:12px;
+  margin-right:17px;
   border-radius: 10px;
   text-align: center;
   text-decoration: dotted, underline;
