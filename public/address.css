@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(40deg, #132872 20%, #2ab8dc 80%);
+}
+iframe{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+    font-weight: 700;
+    font-size:22px;
+    background: linear-gradient(40deg, #132872 20%, #7cc8db 80%);
+    font-family:'SOFADI ONE';
+    border-radius: 3px; 
+    user-select: none;
+}
+h2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    width:20%;
+    font-family: "Sofadi One";
+    border-radius: 20px;
+    background: linear-gradient(40deg, #132872 20%, #7cc8db 80%);
+  
+}

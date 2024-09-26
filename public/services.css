@@ -116,7 +116,7 @@ header {
   display:flex;
   flex-direction: row;
   width: 85%;
-  margin-right: 20px;
+  margin-right: px;
   font-family:"Sofadi One";
   font-size: 85%;
   font-weight: 600;
@@ -490,7 +490,7 @@ i {
         margin-top: 40px;
     }
     #page-wrapper {
-        flex-direction: column;
+        
         text-align: center;
         font-size: 7.5px;
         position: relative;
