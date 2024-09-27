@@ -15,7 +15,7 @@ body {
   margin-right: auto;
   margin-bottom: 80px;
   box-shadow: 2px 3px 2px rgba(0, 0.8, 0.8, 0.0);
- 
+  
 }
 #nav-bar {
   background: linear-gradient(40deg, #f77e9a 20%, #7cc8db 80%);
@@ -57,23 +57,25 @@ a:hover {
   color: rgb(120, 99, 96);
 }
 .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 20px;
-  margin-left: 20px;
-
-
+    width:100%;
+    display: flex;
+    flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 @media (max-width: 600px) {
     .container {
       flex-direction: column;
       text-align: center;
       font-size: 7.5px;
+      margin-right:auto;
+      margin-left:auto;
     }
     .container h2{
         text-align: center;
         background: rgb(98, 134, 199);
-        width: 50%;
+        width: 45%;
         padding:4px;
         margin-right: auto;
         margin-left: auto;
@@ -81,41 +83,85 @@ a:hover {
     }
 }
 
-#video1{
-margin-right:auto;
-margin-left:auto;
-margin-bottom: 40px;
+.video1{
+margin-right:30px;
+margin-left:60px;
+margin-bottom: 20px;
 padding: 5px;
 border: 20px 20px 20px 20px solid rgb(43, 92, 88);
+
+}
+#inline{
+  display:inline-block;
+}
+#solarfirst{
+  height: 270px;
+  margin-left: 20px;
+  border: 2px solid rgb(119, 228, 221);
 }
 .container h2{
     text-align: center;
     background: linear-gradient(120deg, rgb(202, 109, 202) 40%, seashell 60%);
     padding:3px;
-    width: 250px;
+    width: 200px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 12px 12px 0 0;
     user-select: none;
 }
-#video1 p{
-   
-    font-family:'Courier New', Courier, monospace;
-    font-style: italic;
-    margin-left:16px;
+
+.video1 h2{
+  margin-left: 80px;
+  text-align: start;
+  background: linear-gradient(120deg, rgb(109, 121, 202) 40%, rgb(168, 97, 255) 60%);
+width: 120px;
+padding: 5px 10px 5px 15px;
+
+}
+.video1 p{
+text-align: start;
+margin-left: 70px;
+
 }
 iframe{
-    border: 10px solid rgb(57, 71, 70);
-    height: 60%;
+    border: 2px solid rgb(119, 228, 221);
+    height: 300px;
+    width: 300px;
     border-radius: 5px;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+#next{
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  padding-bottom: 30px;
+  margin: 20px;
+}
+.otherpics h2{
+  margin-left: 20x;
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  background: linear-gradient(120deg, rgb(109, 121, 202) 40%, rgb(168, 97, 255) 60%);
+width: 80%;
+padding: 5px 10px 5px 15px;
+
+
+}
+img{
+  width: 300px;
+  height: 250px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border: 2px solid rgb(119, 228, 221);
 }
 
 
 #next img{
-    width: 350px;
-    height: 50%;
-    border-radius: 5px;
-    border: 10px solid rgb(57, 71, 70);
+    border: 2px solid rgb(79, 216, 207);
+    margin-bottom: 30px;
 }
 .heading {
   align-items: center;
@@ -127,6 +173,8 @@ iframe{
   margin-top: 159px;
   color: salmon;
   margin-bottom: 10px;
+
+
 }
 .heading h1 {
   margin-top: 170px;
@@ -135,6 +183,7 @@ iframe{
   background: linear-gradient(40deg, #132872 20%, #7cc8db 80%);
   font-family: 'SOFADI ONE';
 border-radius:  3px; 
+
 user-select: none;
 
 }
@@ -261,12 +310,7 @@ header {
     color: var(--main-light);
   }
   
-  section img {
-    display: block;
-    width: 100%;
-    border-radius: 20px 20px 0 0;
-  }
- 
+
   
   /* Projects section */
   
@@ -281,7 +325,6 @@ header {
     margin: 0 auto 6rem auto;
     border-bottom: 0.2rem;
   }
-  
 
   
   .btn {
@@ -321,14 +364,15 @@ header {
    /* Footer Section*/
   
    footer {
+    width: 100%;
     font-weight: 300;
     display: flex;
     justify-content: space-evenly;
-   
     background: rgb(187, 203, 203);
     border-top: 10px solid var(--main-color);
     font-size: 16px;
     margin-bottom: 0px;
+    margin-top: 550px;
     height:250px;
   }
   
@@ -347,6 +391,7 @@ header {
     border-left: 2px solid var(--main-color);
    
   }
+ 
   #footerimage {
     width:20px;
     border-radius: 50%;
@@ -410,6 +455,9 @@ i {
       flex-direction: column;
       text-align: center;
       font-size: 7.5px;
+      margin-top: 200px;
+      align-items: center;
+      justify-content: center;
     }
   
     #foot {
@@ -454,14 +502,6 @@ i {
         font-size: 9px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-    #abouttext{
-        width: 80%;
-        justify-content: center;
-        margin-right: auto;
-        margin-left: auto;
-        font-size: 14px;
-        margin-top: 30px;
-    }
   
     .heading{
         margin-top: 40px;
@@ -479,6 +519,36 @@ i {
         margin-bottom: 80px;
         box-shadow: 2px 3px 2px rgba(0, 0.8, 0.8, 0.0);
         font-size: 12px;
+      }
+      h2{
+        text-align: center;
+        
+      }
+      #next{
+margin-top: 20px;
+  
+      }
+      #next img{
+        margin-bottom: 30px;
+        padding: 30x;
+        margin-top: 40px;
+       
+      }
+      #last{
+        padding: 2px 5px 5px 5px;
+      }
+      img{
+        margin-right: auto;
+        margin-left: auto;
+      }
+      iframe{
+        margin-right:auto;
+        margin-left:21px;
+      }
+      #next h2{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
       }
   }
   

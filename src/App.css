@@ -2,12 +2,15 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
 * {
-  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width:100%;
   padding: 0;
   box-sizing: border-box;
 }
 body {
   background-color: #131a3b;
+  width: 100%;
 }
 .App{
   width: 100%;
@@ -16,24 +19,24 @@ body {
 #heading2 {
   margin-right: auto;
   margin-left: auto;
-    margin-top: 600px;
-    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: -200px;
     font-size: 18px;
     background: linear-gradient(60deg, #9cb9e6 50%, #9af0ff 50%);
     font-family: "SOFADI ONE";
-  border-radius:  13px 13px 0 0;
+  border-radius:  3px 3px 0 0;
   padding-left:10px; 
   width: 100%;
- position:absolute;
+
 
   }
   #heading2 button {
-  width: 97%;
+  width: 100%;
   background:rgb(81, 168, 244);
   border: 2px solid rgb(53, 69, 107);
   border-radius: 30px;
   height: 30px;
-  padding:10px 5px 9px 40%;
+  padding:10px 5px 9px 4px;
   margin-bottom: 10px;
   margin-top: 5px;
   display: flex;
@@ -50,7 +53,7 @@ body {
   background:  linear-gradient(170deg, #b4b1b2 20%,#2e4065 80%, #076981 80%);
   padding: 5px 5px 5px 8px;
   border-radius: 10px 10px 0 0;
-  margin-left: -10px;
+  margin-left: -5px;
   margin-bottom: 9px;
   color:#b7efea
 }
@@ -60,16 +63,20 @@ body {
   margin-top:-27px;
   padding-right: 10px;
 }
+span i{
+  text-align: end;
+}
 #in {
   font-family: Pacifico, sans-serif; 
-  background: url("frontvideo.gif")
-  no-repeat center center fixed;
-  height: 690px;
-  margin-top: 200px;
+  height: 60%;
+  justify-content: center;
+  align-items: center;
   padding-top: 30px;
   padding-bottom: 20px;
   opacity: 0.9;
   width:100%;
+  margin-right: auto;
+  margin-left: auto;
 
 }
 #design{
@@ -106,44 +113,44 @@ cursor: grab;
 }
 
 #page-wrapper {
-  position: relative;
   height: auto;
-  max-width: 100%;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 }
+img{
+  border: 2px solid rgb(119, 228, 221);
+}
+div #nav-bar{
+padding: 20px;
+margin-left:-150px;
+}
+#nav-bar a{
+padding: 10px;
+}
 #nav-bar {
-
+  justify-content: start;
   background: linear-gradient(40deg, #f77e9a 20%, #7cc8db 80%);
   border-radius: 10px 10px;
-  width:90%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
   margin-top:14px;
   margin-bottom:5px;
+  margin-left:-40px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  justify-items: center;
   box-shadow: 1px 3px 5px rgba(0, 0, 0.6, 0.9);
 }
 @media (max-width: 600px) {
   #page-wrapper {
-   width:97%;
+   width:100%;
+   margin-left:auto;
+   margin-right: auto;
   
-  }
-  #secondnav {
-    margin-left: auto;
-  }
-  #nav1 {
-    width:65%;
-    margin-left: -10px;
-    margin-right: -3px;
   }
 }
 li{
@@ -157,34 +164,28 @@ a {
 a:hover {
   color: salmon;
 }
-.container {
-  max-width: 1000px;
-  width: auto;
-  margin: auto;
-  justify-content: center;
-
-}
 .heading {
   align-items: center;
   justify-content: center;
-  margin-left:auto;
-  margin-right: auto;
   text-align: center;
-  width: 400px;
+  width: 100%;
   margin-top: 50px;
   color: rgb(10, 37, 53);
   margin-bottom: 10px;
+
 }
 .heading h1 {
-  margin-top: -130px;
+  margin-top: 160px;
+  margin-left:auto;
+  margin-right: auto;
   font-weight: 400;
   font-size:40px;
   background: linear-gradient(40deg, #132872 20%, #7cc8db 80%);
   font-family: "Protest Guerrilla";
 border-radius:  3px; 
 user-select: none;
-
 }
+
 #secondnav i{
   color: rgb(161, 98, 3);
   cursor: pointer;
@@ -213,35 +214,22 @@ header {
   min-height: 75px;
   padding: 5px 10px 7px 5px;
   width: 100%;
-  margin: -5px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  text-align: center;
   background: linear-gradient(40deg, #b4b1b2 20%,#2e4065 80%, #076981 80%);
-
+margin-left:auto;
+padding-right:10px;
 }
 #nav1 {
-  align-items: center;
+
   text-align: center;
   display:flex;
   flex-direction: row; 
   font-family:"Sofadi One";
-  font-size: 85%;
   font-weight: 600;
-
 }
-#nav1 div {
 
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-  margin: 7px;
-  padding-left:5px;
-  padding-right:5px;
-  padding-top: 5px;
-  padding-bottom:5px;
-  
-}
 #nav1 div:hover {
   /* use background: white or any color to highlight each nav-list buttons*/
   border-radius: 10px;
@@ -252,22 +240,18 @@ header {
 }
 
 .logo {
-  position:relative;
   margin-top: 20px;
   margin-left: 5px;
-  margin-right: 5px;
-
+  margin-right: 0px;
 }
 
 .logo > img {
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   max-height:300px;
-  display: flex;
-  justify-content: content;
+  justify-content: center;
   align-items:center;
-  text-align:center;
-  margin-left:0px;
+  margin-left:-190px;
   border-radius: 50%;
   margin-bottom: 10px;
   box-shadow: 1px 4px 5px rgba(0, 0, 6, 0.7);
@@ -283,6 +267,7 @@ header {
   padding: 7px;
   margin-top: 2px;
   margin-right:12px;
+  margin-left: 12px;
   border-radius: 10px;
   text-align: center;
   text-decoration: dotted, underline;
@@ -305,62 +290,13 @@ header {
   nav > ul {
     flex-direction: row;
   }
+  #nav-bar{
+    width: 340px;
+    font-size: 87%;
+  }
   
   }
 
- /* Projects section */
-  
- .projects-section {
-  text-align: center;
-  padding: 10rem 2rem;
-  background: var(--main-ash);
-}
-
-.projects-section-header {
-  max-width: 640px;
-  margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem;
-}
-
-@media (max-width: 28.75em) {
-  .projects-section-header {
-    font-size: 4rem;
-  }
-}
-
-.projects-grid {
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 4rem;
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  margin-bottom: 0.1rem;
-}
-
-@media (max-width: 30.625em) {
-  .projects-section {
-    padding: 6rem 1rem;
-  }
-
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.project {
-  background: rgb(161, 184, 194);
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  border-radius:25px;
-  margin-left:auto;
-  margin-right:auto;
-  font-family: 'Sofadi One';
-  font-weight: 700;
-  font-size: 20px;
-  color: rgb(66, 74, 112);
-  margin-top: -50px;
-}
 
 .code {
   color: var(--main-ash);
@@ -424,7 +360,7 @@ header {
 
 
   
- footer {
+#footer {
   font-weight: 300;
   display: flex;
   justify-content: space-evenly;
@@ -501,7 +437,7 @@ footer > div {
   text-align: center;
 }
 i {
-  margin-top: -3.5px;
+  margin-top: 3.5px;
 
 }
 #last{
@@ -511,13 +447,16 @@ i {
   margin-bottom: -80px;
   background: silver;
 }
-@media (max-width: 600px ) {
-  footer {
+@media (max-width: 650px ) {
+  #footer {
     flex-direction: column;
     text-align: center;
     font-size: 7.5px;
+    height: 270px;
   }
-
+  #last{
+    padding:8px;
+  }
   #foot {
       margin-top: 5px;
       margin-left:auto;
@@ -544,6 +483,7 @@ i {
      margin-right: auto;
      font-size: 7x;
   }
+ 
   #address{
       margin-top: 5px;
       width: 100%;
@@ -559,23 +499,15 @@ i {
       margin-left: auto;
       font-size: 9px;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  #abouttext{
-      width: 80%;
-      justify-content: center;
-      margin-right: auto;
-      margin-left: auto;
-      font-size: 14px;
-      margin-top: 30px;
-  }
-  .container{
-  width:100px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20px;
-  }
+      padding: 12px;
+    }
+ 
   .heading{
-      margin-top: 40px;
+      margin-top: 10px;
+  }
+  .heading h1{
+    margin-top: 140px;
+    font-size: 12px;
   }
   #page-wrapper {
     align-items: center;
@@ -583,25 +515,72 @@ i {
       flex-direction: column;
       text-align: center;
       font-size: 7.5px;
-      position: relative;
       height: auto;
       width: 100%;
-      display: block;
-      margin-left: auto;
+      display:flex;
+      margin-left:auto;
       margin-right: auto;
       margin-bottom: 80px;
       box-shadow: 2px 3px 2px rgba(0, 0.8, 0.8, 0.0);
-      font-size: 12px;
+      font-size: 10px;
     }
     #nav-bar{
-      width: 90%;
+      width: 280px;
       padding-left:20px;
       padding-right:10px;
       padding-top:10px;
-      padding-bottom:10px;
+      padding-bottom:1px;
       margin-bottom: 10px;
       margin-top:10px;
-      margin-left:auto;
-      margin-right:auto;
+      margin-left:-100px;
+      margin-right:30px;
+      align-items: center;
+      text-align: center;
     }
-}
+    #in img{
+      width: 100%;
+      height: 300px;
+      margin-top: 5px;
+      margin-right: auto;
+      margin-left: auto;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+    }
+    .logo img{
+      width: 30%;
+      height: 48%;
+      margin-left:-150px;
+    }
+    #heading2{
+      margin-top:40px;
+      margin-bottom: -250px;
+    }
+    #heading2 button {
+     width:100%;
+     font-size: 9px;
+     padding: 4px 4px 4px 4px;
+     position:relative;
+    }
+    #heading2 section{
+      font-family: 'SOFADI ONE';
+      font-size: 12px;
+      padding: 5px 10px 8px 10px;
+      border-radius: 3px 3px 0 0;
+      width: 100%;
+    }
+    span i{
+      text-align: end;
+      margin-top: 13px;
+    }
+    #heading2 p{
+      font-size: 12px;
+      text-align: justify;
+      padding-left: 5px;
+      padding-right: 8px;
+    }
+    #social{
+      padding-top:20px;
+    }
+  
+  }

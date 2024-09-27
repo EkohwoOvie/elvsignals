@@ -5,11 +5,12 @@ body {
   background-color: #acaeb9;
    font-family: 'Sofadi One';
    color:#1c305a;
+   width:100%;
 }
 #page-wrapper {
   position: relative;
   height: auto;
-  max-width: 100%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -37,7 +38,11 @@ body {
 li{
   list-style:none;
 }
-
+.projects-grid{
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+}
 a {
   color: rgb(86, 66, 15);
   text-decoration: none;
@@ -47,8 +52,9 @@ a:hover {
 }
 .container {
   max-width: 1000px;
-  width: auto;
-  margin: auto;
+  width: 100%;
+  margin-right: auto;
+  margin-left:auto;
   justify-content: center;
 
 }
@@ -66,7 +72,7 @@ a:hover {
 .heading h1 {
   margin-top: 160px;
   font-weight: 700;
-  font-size:30px;
+  font-size:20px;
   background: linear-gradient(40deg, #132872 20%, #7cc8db 80%);
   font-family: 'SOFADI ONE';
 border-radius:  3px; 
@@ -89,13 +95,6 @@ user-select: none;
 }
 
 
-.desc {
-  margin-left: 100px;
-  margin-right: auto;
-  margin-top: -50px;
-  padding: 10px;
-  width:800px;
-}
 
 header {
   position: fixed;
@@ -165,7 +164,9 @@ header {
   box-shadow: 1px 4px 5px rgba(0, 0, 6, 0.7);
 
   }
-
+img{
+  border: 2px solid rgb(119, 228, 221);
+}
 #secondnav{
   background:linear-gradient(40deg, #d6da6e 20%, #7cc8db 80%);
   width:20%;
@@ -226,8 +227,10 @@ header {
   
   .projects-section {
     text-align: center;
-    padding: 10rem 2rem;
+    padding: 8rem 2rem;
     background: var(--main-ash);
+    margin-left:-33px;
+    margin-right: auto;
 
   }
   
@@ -252,6 +255,8 @@ header {
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 0.1rem;
+    margin-left:auto;
+    margin-right:auto;
   }
   
   @media (max-width: 30.625em) {
@@ -272,7 +277,7 @@ header {
     margin-right:auto;
     font-family: 'Sofadi One';
     font-weight: 700;
-    font-size: 20px;
+    font-size: 10px;
     color: rgb(66, 74, 112);
     margin-top: 10px;
   }
@@ -429,6 +434,7 @@ i {
       flex-direction: column;
       text-align: center;
       font-size: 7.5px;
+      width:100%;
     }
   
     #foot {
@@ -452,6 +458,7 @@ i {
       }
     #build {
         margin-top: 10px;
+        padding: 10px 0px 10px 0px;
         width: 100%;
        margin-left: auto;
        margin-right: auto;
@@ -497,5 +504,17 @@ i {
         box-shadow: 2px 3px 2px rgba(0, 0.8, 0.8, 0.0);
         font-size: 12px;
       }
+       #projects span{
+        font-size: 16px;
+       }
+       .projects-grid{
+        width: 60%;
+        height: 60%;
+        margin-right: auto;
+        margin-left: auto;
+       }
+       #last{
+        padding: 2px 5px 5px 5px;
+       }
   }
   

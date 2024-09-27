@@ -72,7 +72,9 @@ text-align: justify;
 background: seashell;
 padding: 20px;
 }
-
+img{
+  border: 2px solid rgb(119, 228, 221);
+}
 
 .heading {
   align-items: center;
