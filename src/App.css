@@ -546,7 +546,7 @@ i {
       text-align: center;
       align-items: center;
       justify-content: center;
-      width:85%;
+      width:98%;
     }
     #nav-bar{
       width: 280px;
@@ -579,11 +579,11 @@ i {
     .logo img{
       width: 70px;
       height: 70px;
-      margin-left:-35px;
+      margin-left:-55px;
     }
     #secondnav{
-      margin-left:-30px;
-      margin-right:50px;
+      margin-left:-10px;
+      margin-right:30px;
     }
     #heading2{
       margin-top:40px;
