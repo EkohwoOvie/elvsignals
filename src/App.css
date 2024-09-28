@@ -124,13 +124,21 @@ img{
   border: 2px solid rgb(119, 228, 221);
 }
 div #nav-bar{
+display:block;
 padding: 20px;
 margin-left:-150px;
+user-select: none;
+text-align: center;
+align-items: center;
+justify-items: center;
 }
 #nav-bar a{
 padding: 10px;
+text-align: center;
+justify-content: center;
 }
 #nav-bar {
+  justify-items: center;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -227,6 +235,7 @@ padding-right:10px;
   width: 120%;
   align-items: center;
   text-align: center;
+  justify-content: center;
   flex-direction: row; 
   font-family:"Sofadi One";
   font-weight: 600;
