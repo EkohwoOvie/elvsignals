@@ -141,7 +141,7 @@ padding: 10px;
   padding-left: 15px;
   padding-right: 15px;
   margin-top:14px;
-  margin-bottom:5px;
+  margin-bottom:15px;
   margin-left:-40px;
   display: flex;
   flex-direction: row;
@@ -231,10 +231,18 @@ padding-right:10px;
   font-family:"Sofadi One";
   font-weight: 600;
 }
-
+#nav1 div{
+  padding-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
 #nav1 div:hover {
   /* use background: white or any color to highlight each nav-list buttons*/
   border-radius: 10px;
+  padding-top:10px;
+  padding-bottom: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
   transform: translateX(15px);
@@ -296,6 +304,7 @@ padding-right:10px;
   #nav-bar{
     width: 340px;
     font-size: 87%;
+  
   }
   
   }
@@ -537,7 +546,7 @@ i {
       text-align: center;
       align-items: center;
       justify-content: center;
-      width:75%;
+      width:85%;
     }
     #nav-bar{
       width: 280px;
@@ -570,7 +579,7 @@ i {
     .logo img{
       width: 70px;
       height: 70px;
-      margin-left:-20px;
+      margin-left:-35px;
     }
     #secondnav{
       margin-left:-30px;
