@@ -82,7 +82,7 @@ function App() {
 </div>
 <div id="contactus">
   <div><b>Contact Us</b></div>
-<div id="straight"><p><i class="fas fa-phone">&#8287;+234 806 213 5843</i></p></div>
+<div id="straight"><p><i class="fas fa-phone">&#8287;+234 813 482 1490</i></p></div>
   <div id="straight"><p><b><i class="fab fa-whatsapp">&#8287;+234 817 137 8798</i></b></p></div>
  <div id="social">  <i class="fab fa-facebook"></i><b>&#8287;</b>
     <b><em>facebook</em></b><div></div>
