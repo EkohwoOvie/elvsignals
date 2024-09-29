@@ -63,18 +63,16 @@ function App() {
         general contractor in Nigeria, we take pride in delivering hight-quality services that turn your dream to reality.
         To get in touch, proceed below</p>
         <a href="address.html"><button><b>PROCEED</b></button></a></div>:null}
-         <div id="design"> <div id="design1"></div>
-          <div id="design2"></div>
-          </div>
+       
          </div>
          <div id="footer">
   <div id="foot">
   <img  id="footerimage" src="logo.gif" alt="footerimage"/>
   <p>
     <div><b>About Us</b></div>
-    Your business is our top-most priority, we aim to provde
-    services to ensure smooth business running in your company.
-  </p>
+    <p id='abt'>
+    ELV-signal auto tracking services is a tech company that provides excellent installation services. We install CCTV cameras, vehicle tracking devices, unlimited internet network routers, solar panels and auto-gates. ELV-signals is built up of high-end engineers and contractors to delineate and provide quality services for your projects. 
+  </p></p>
 </div>
 <div id="address">
  <div><b>Address</b></div>
@@ -82,7 +80,7 @@ function App() {
 </div>
 <div id="contactus">
   <div><b>Contact Us</b></div>
-<div id="straight"><p><i class="fas fa-phone">&#8287;+234 813 482 1490</i></p></div>
+<div id="sstr"><p><i class="fas fa-phone">&#8287;+234 813 482 1490</i></p></div>
   <div id="straight"><p><b><i class="fab fa-whatsapp">&#8287;+234 817 137 8798</i></b></p></div>
  <div id="social">  <i class="fab fa-facebook"></i><b>&#8287;</b>
     <b><em>facebook</em></b><div></div>

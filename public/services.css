@@ -20,7 +20,7 @@ body {
 }
 #nav-bar {
 
-  background: linear-gradient(40deg, #f77e9a 20%, #7cc8db 80%);
+  background: linear-gradient(10deg, #91aac7 20%, #c1d6c6 80%);
   border-radius: 10px 10px;
   width:80%;
   padding-top: 10px;
@@ -106,8 +106,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(40deg, #b4b1b2 20%,#2e4065 80%, #076981 80%);
-
+  background: linear-gradient(40deg, #898ea5 20%,#4b5a76 80%);
 }
 #nav1 {
   align-items: center;
@@ -165,7 +164,7 @@ header {
 
   }
 img{
-  border: 2px solid rgb(119, 228, 221);
+  border: 2px solid rgb(86, 114, 113);
 }
 #secondnav{
   background:linear-gradient(40deg, #d6da6e 20%, #7cc8db 80%);
@@ -389,7 +388,9 @@ img{
     margin-right:10px;
     text-align: center;
 }
-
+#abt{
+  text-align: justify;
+}
 #build {
     margin-top: 70px;
     width: 400px;
