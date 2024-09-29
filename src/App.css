@@ -204,7 +204,7 @@ a {
   color: rgb(3, 46, 8);
   font-weight: bold;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
 }
 a:hover {
   color: rgb(100, 75, 12);
@@ -316,21 +316,16 @@ padding-right:10px;
   width:15%;
   font-family: 'Times New Roman', Times, serif;
   font-weight:bolder;
-  animation-name: backgroundColorPalette;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  transition: all;
   padding: 7px;
   padding-right: 16px;
   padding-left: 7px;
   margin-top: 2px;
   margin-right:17px;
-  margin-left: 11px;
+  margin-left: 8px;
   border-radius: 10px;
   text-align: center;
   text-decoration: dotted, underline;
-  box-shadow: 1px 4px 5px rgba(0, 0, 6, 0.7);
+  box-shadow:1px 4px 5px rgba(0, 0, 6, 0.7);
 }
 #secondnav li{
   padding: 5px;
@@ -610,6 +605,7 @@ i {
       align-items: center;
       justify-content: center;
       width:98%;
+      font-size: 12px;
       font-stretch: expanded;
     }
     #nav-bar{
@@ -624,6 +620,7 @@ i {
       margin-right:30px;
       align-items: center;
       text-align: center;
+      font-size: 12px;
       font-stretch: expanded;
     }
     #header{
@@ -649,7 +646,7 @@ i {
     #secondnav{
       margin-left:-10px;
       margin-right:30px;
-      font-size:110%;
+      font-size:95%;
     }
     #heading2{
       margin-top:40px;
