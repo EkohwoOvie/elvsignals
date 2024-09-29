@@ -69,9 +69,9 @@ function App() {
   <div id="foot">
   <img  id="footerimage" src="logo.gif" alt="footerimage"/>
   <p>
-    <div><b>About Us</b></div>
+    <div id="abt1"><b>About Us</b></div>
     <p id='abt'>
-    ELV-signal auto tracking services is a tech company that provides excellent installation services. We install CCTV cameras, vehicle tracking devices, unlimited internet network routers, solar panels and auto-gates. ELV-signals is built up of high-end engineers and contractors to delineate and provide quality services for your projects. 
+    ELV-signal auto tracking services is a tech company that provides excellent installation services. We install CCTV cameras, vehicle tracking devices, unlimited internet network routers, solar panels and auto-gates. 
   </p></p>
 </div>
 <div id="address">
