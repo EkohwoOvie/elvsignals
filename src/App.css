@@ -124,6 +124,7 @@ span i{
   margin-right: auto;
   margin-bottom: 20px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  
 }
 img{
   border: 2px solid rgb(86, 114, 113);
@@ -265,6 +266,7 @@ header {
   background: linear-gradient(360deg, rgb(255, 228, 140) 10%,#4b5a76 90%);
 margin-left:auto;
 padding-right:10px;
+
 }
 #nav1 {
   width: 120%;
@@ -317,20 +319,20 @@ padding-right:10px;
   font-family: 'Times New Roman', Times, serif;
   font-weight:bolder;
   padding: 7px;
-  padding-right: 16px;
+  padding-right: 22px;
   padding-left: 7px;
   margin-top: 2px;
-  margin-right:17px;
-  margin-left: 8px;
+  margin-right:19px;
+  margin-left: 10px;
   border-radius: 10px;
   text-align: center;
   text-decoration: dotted, underline;
   box-shadow:1px 4px 5px rgba(0, 0, 6, 0.7);
 }
 #secondnav li{
-  padding: 5px;
-  margin-left:3px;
-  margin-right:13px;
+  padding: 3px;
+  margin-left:8px;
+  margin-right:17px;
   
 }
 
