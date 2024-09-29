@@ -18,6 +18,7 @@ body {
     font-size: 12px;
 }
 #nav-bar {
+  font-family: 'Times New Roman', Times, serif;
   background: linear-gradient(10deg, #91aac7 20%, #c1d6c6 80%);
   border-radius: 10px 10px;
   width:70%;
@@ -63,7 +64,7 @@ a:hover {
   position: relative;
 }
 #abouttext{
-width:80%;
+width:70%;
 height: 60%;
 margin-right:auto;
 margin-left:auto;
@@ -71,6 +72,9 @@ margin-bottom: 40px;
 text-align: justify;
 background: seashell;
 padding: 20px;
+margin-top: 100px;
+font-size: 150%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 img{
   border: 2px solid rgb(86, 114, 113);
@@ -90,9 +94,9 @@ img{
 .heading h1 {
   margin-top: 195px;
   font-weight: 700;
-  font-size:22px;
-  background: linear-gradient(40deg, #132872 20%, #7cc8db 80%);
-  font-family: 'SOFADI ONE';
+  font-size:26px;
+  color: rgb(46, 46, 99);
+  font-family:'Times New Roman', Times, serif;
 border-radius:  3px; 
 user-select: none;
 }
@@ -172,7 +176,7 @@ header {
 #secondnav{
   background:linear-gradient(40deg, #d6da6e 20%, #7cc8db 80%);
   width:20%;
-  font-family: "Sofadi One";
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
   padding: 7px;
   margin-top: 4px;
@@ -279,7 +283,7 @@ header {
     font-weight: 300;
     display: flex;
     justify-content: space-evenly;
-   
+   margin-top:285px;
     background: rgb(187, 203, 203);
     border-top: 10px solid var(--main-color);
     font-size: 16px;
