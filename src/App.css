@@ -654,10 +654,11 @@ i {
       margin-right:40px;
       padding-right:20px;
       font-size:11px;
-      padding-right: 17px;
+      
     }
     #secondnav li{
       font-size:11px;
+      padding-right: 17px;
     }
     #heading2{
       margin-top:40px;
