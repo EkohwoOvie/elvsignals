@@ -31,7 +31,8 @@ function App() {
   <div id="in"><img src="frontvideo.gif" alt="main video"/></div>
       <div id="heading2">
       <section onClick={shew}>CCTV CAMERA & INSTALLATION<span><i class="fas fa-chevron-right"></i></span></section>
-      { show? <div><p>Feel safe, feel secure and feel good knowing that you have a CCTV system installed by 
+      { show? <div id="hiddden"><section><span></span><span><i class="fas fa-fire"></i></span></section>
+      <p>Feel safe, feel secure and feel good knowing that you have a CCTV system installed by 
         professional CCTV installers. You get enhanced monitoring 
         on a computer, tablet or mobile phone over 
         the internet. For your installation,<b> pay a 70% deposit and when our team is done with your installation you pay the 30% balance.</b> 
