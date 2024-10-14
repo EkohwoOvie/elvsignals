@@ -102,6 +102,12 @@ ul li a{
     text-decoration: none;
     transition: 0.2s ease-out;
 }
+#boxx p{
+    display: flex;
+    flex-direction: row;
+    color: #1abc9c;
+    width: 50px;
+}
 ul li:hover a{
     color: #fff;
     background-color: #1e2e92;
@@ -1599,6 +1605,38 @@ hr{
     ul li a i{
         width: 40px;
         text-align: start;
+    }
+   div #boxx p{
+        display: flex;
+        flex-direction: row;
+        color: #17a387;
+        width: 40px;
+        text-align: start;
+        background-color:#fff;
+        position: relative;
+        margin-left: 10%;
+    }
+    div #boxx a{
+        display: flex;
+        flex-direction: row;
+        color: #17a387;
+        width: 40px;
+        text-align: start;
+        background-color:#fff;
+        position: relative;
+        margin-left: 1%;
+        font-size: 30px;
+    }
+    div #boxx{
+        line-height: 30px;
+        align-items: center;
+        border-radius: 30px 40px 50px 50px;
+        margin-top: 2px;
+        margin-left: 1%;
+        width: 100%;
+        height: 70px;
+        background-color:#fff;
+        justify-content: space-evenly;
     }
     #close img{
         width: 130px;

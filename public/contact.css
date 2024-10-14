@@ -112,6 +112,12 @@ ul li a{
     text-decoration: none;
     transition: 0.2s ease-out;
 }
+#boxx{
+    display: flex;
+    flex-direction: row;
+    color:#17a387;
+    font
+   }
 ul li:hover a{
     color: #fff;
     background-color: #1e2e92;
@@ -1357,8 +1363,8 @@ margin-bottom: 20px;
        }
        ul li a{
            margin-left:1%;
-           width: 600px;
-           text-align:justify;
+           width: 300px;
+           text-align:start;
            background-color: #fff;
            font-weight: bolder;
        }
@@ -1539,6 +1545,7 @@ font-size: 22px;
    #stack{
     position: fixed;
    }
+
    }
 
  
