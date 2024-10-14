@@ -652,7 +652,7 @@ nav a:hover{
     font-size:70px;
     color:#1abc9c;
     z-index: 0;
-    margin-top: -650px;
+    margin-top: -700px;
     margin-left:20%;
     width: 500px;
     text-align:normal;
@@ -669,7 +669,7 @@ nav a:hover{
 @keyframes imgread0 {
 
     50%{
-        transform: translateX(100px);
+        transform: translateX(40px);
         opacity: 0.9;
         font-size: 80px;
         color:antiquewhite;
@@ -687,7 +687,7 @@ nav a:hover{
     font-weight: bold;
     color:#1abc9c;
     z-index: 0;
-    margin-top: -375px;
+    margin-top: -465px;
     width: 600px;
     text-align:center;
     margin-left:13%;
@@ -1007,7 +1007,7 @@ ul li a i{
 @keyframes imgread0 {
 
     50%{
-        transform: translateX(100px);
+        transform: translateX(60px);
         opacity: 0.9;
         font-size: 45px;
         color:antiquewhite;
@@ -1702,7 +1702,7 @@ hr{
         color: #bc3e3e;
         text-align: center;
         margin-top:-60%;
-        margin-left: 20%;
+        margin-left: 14%;
         margin-right: auto;
         padding: 0;
         display: flex;
@@ -1744,9 +1744,9 @@ hr{
     @keyframes imgread0 {
     
         50%{
-            transform: translateX(100px);
+            transform: translateX(60px);
             opacity: 0.9;
-            font-size: 45px;
+            font-size: 40px;
             color:antiquewhite;
             text-align: normal;
             width: 60%;
@@ -1762,7 +1762,7 @@ hr{
         font-weight: bold;
         color:#0e2e27;
         z-index: 0;
-        margin-top: -395px;
+        margin-top: -315px;
         width: 80%;
         text-align:center;
         margin-left:4%;
@@ -2128,9 +2128,11 @@ hr{
         width: 100%;
         height:100%;
         }
-        .aboutwords{
-        width:450px;
-        font-size: 18px;
+        div .aboutwords{
+        width:370px;
+        margin-left: -5px;
+        padding-right: 9px;
+        font-size: 16px;
         animation: appear 5s linear;
         animation-timeline: view();
         animation-range: entry 10% cover 20%;
@@ -2649,6 +2651,6 @@ margin-right: auto;
     color:black;
     background-color:rgb(255, 255, 255);
     font-family:"POPPINS";
-    font-size: 13px;
+    font-size: 10px;
     font-weight: bolder;
 }

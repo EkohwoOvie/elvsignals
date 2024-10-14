@@ -23,6 +23,7 @@ body{
  #page1{
     width:100%;
     height:200%;
+    background-color:  #b2b2b2;
 }
 #page2{
     margin-top:150px;
@@ -222,7 +223,7 @@ input:checked ~ .slide{
     width:100%;
     height: 80px;
     position: relative;
-    background:midnightblue;
+    background:#fff;
     display:flex;
     margin-top: -230px;
 }
@@ -761,8 +762,8 @@ nav a:hover{
             font-family: "Poppins";
             font-size: 12px;
             width:100%;
-            height: 25px;
-            color: aquamarine;
+            height: 25px; 
+            color:brown;
             animation-name: topper;
             animation-duration: 20s;
             animation-iteration-count: infinite;
@@ -803,7 +804,7 @@ nav a:hover{
         #contaact{
             margin-top: -160px;
             margin-left: -30%;
-            background-color: #9f7107;
+            background-color: #000000;
             box-shadow: 0 1px 7px 6px #f3eb96;
             height: 50px;
             z-index: 1;
@@ -918,18 +919,38 @@ nav a:hover{
             box-shadow: 0 4px 7px 6px rgb(129, 129, 129);  
          }
 div .aboutbanner {
-  margin-top: 70px;
+  margin-top:20px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
   width: 100%;
+  background:  #b2b2b2;
 }
+div .aboutbanner p{
+    margin-top: 80px;
+    padding-top: 30px;
+    width: 100%;
+    background:  #b2b2b2;
+    
+  }
 #aboutheader1{
     width: 80%;
 }
+div .homeabout{
+    margin-top: 89px;
+    padding-top: 10px;
+}
+.homeabouttext p{
+margin-top: 10px;
+padding-top: 5px;
+}
 div #stack{
-    margin-top: -10px;
+    margin-top: 55px;
     width: 100%;
 }
 div nav {
     width:100%;
+    margin-bottom: 20px;
 }
 div .homeservices p{
     border-radius: 50px 50px 50px 50px;
@@ -978,13 +999,15 @@ div .aboutsection{
     width: 100%;
     height:100%;
 }
-.aboutwords{
-    width:450px;
-    font-size: 18px;
+div .aboutwords{
+    width:370px;
+    margin-left: -5px;
+    padding-right: 7px;
+    font-size: 16px;
     animation: appear 5s linear;
     animation-timeline: view();
     animation-range: entry 10% cover 20%;
-}
+    }
 .aboutinsides{
 color:#ffffff;
 }
@@ -1160,7 +1183,7 @@ hr{
     margin-top: 20px;
     padding-bottom: 80px;
     padding-left: 14px;
-    margin-left:0px;
+    margin-left:-6px;
     margin-right:40px;
     width:100%;
     z-index: 0;
@@ -1204,11 +1227,7 @@ hr{
     font-stretch: condensed;
     font-family:"Poppins";
     text-align: justify;
-    animation-name: pg2appear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-    transition: all 3s ease-in;
-    z-index: 0;
+       z-index: 0;
 }
 @keyframes pg2appear {
     from{
@@ -1230,10 +1249,7 @@ hr{
     margin-bottom: 40px;
     align-items: center;
     box-shadow: 0 1px 7px 6px #f3eb96;
-    animation-name: pg2appear1;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-    transition: all 3s ease-in;
+  
     z-index: 0;
 }
 @keyframes pg2appear1 {
@@ -1459,7 +1475,8 @@ hr{
 }
 .aboutwords{
     text-align: center;
-    width:380px;
+    margin-left: -6px;
+    width:370px;
     font-size: 18px;
     animation: appear 5s linear;
     animation-timeline: view();
@@ -1517,6 +1534,6 @@ margin-right: auto;
     color:black;
     background-color:rgb(255, 255, 255);
     font-family:"POPPINS";
-    font-size: 13px;
+    font-size: 10px;
     font-weight: bolder;
 }
