@@ -1084,6 +1084,14 @@ div .homegallery{
    padding-right: 33px;
 
 }
+iframe{
+    width: 380px;
+    margin-left: -10px;
+    left: 1%;
+    border: 2px solid #b2b2b2;
+    padding-top: 30px;
+    padding-left:40px;
+ }
 div .about{
    justify-content: center;
    margin-top: 20px;
@@ -1181,6 +1189,7 @@ hr{
  }
  div .contactbody p{
     text-align: center;
+    width:366px;
       
    }
    div .subphone1{
@@ -1216,9 +1225,10 @@ hr{
     background: #b2b2b2;
     width: 100%;
     justify-content: space-evenly;
+    margin-left:-10px;
  }
  iframe{
-    width: 700px;
+    width: 560px;
     margin-left: -10px;
     left: 1%;
     border: 2px solid #b2b2b2;

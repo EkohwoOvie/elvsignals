@@ -28,13 +28,15 @@ body{
     margin-top:150px;
     width:100%;
     height: 100%;
-    margin-left:1px;
+    margin-left:auto;
+    margin-right: auto;
     background: rgb(197, 196, 196);
 } 
 #page3{
     width:100%;
     height: 100%;
-    margin-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('solarnet2.webp');
     background-size: cover;
 }
@@ -1194,8 +1196,8 @@ hr{
 } 
 .homeabouttext{
     margin-top: 30px;
-    padding-top: 10px;
-    width: 390px;
+    padding:15px;
+    width: 350px;
     font-size: 18px;
     font-weight: lighter;
     font-stretch: condensed;
@@ -1222,8 +1224,8 @@ hr{
 
 .homeaboutimage img{
     margin-top:220px;
-    width:450px;
-    height: 450px;
+    width:390px;
+    height: 390px;
     margin-bottom: 40px;
     align-items: center;
     box-shadow: 0 1px 7px 6px #f3eb96;
@@ -1432,13 +1434,11 @@ hr{
     justify-content: center;
     margin-top: 20px;
     padding-top:30px;
-    margin-left: 10px;
     padding-bottom: 140px;
     padding-left:19px;
     width:100%;
     z-index: 0;
     font-family: "POPPINS";
-    vertical-align: middle;
     z-index: 1;
     text-align: center;
 }
@@ -1449,6 +1449,7 @@ hr{
     vertical-align: middle;
     justify-content:space-evenly;
     padding-bottom: 25px;
+    padding-right: 20px;
     margin-top: 60px;
     margin-left:auto;
     margin-right: auto;

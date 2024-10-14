@@ -29,7 +29,7 @@ body{
     margin-top:350px;
     width:100%;
     height: 100%;
-    margin-left: -25px;
+    margin-left: 0px;
     background: rgb(197, 196, 196);
 } 
 #page3{
@@ -1079,7 +1079,7 @@ ul li a i{
   }
   
   #highlightimages {
-    width: 370px;
+    width: 350px;
     height: 340px;
     z-index: 0;
     margin:30px 30px 0 30px;
@@ -1816,7 +1816,7 @@ hr{
       }
       
       #highlightimages {
-        width: 370px;
+        width: 360px;
         height: 340px;
         z-index: 0;
         margin:30px 30px 0 30px;
@@ -2100,22 +2100,22 @@ hr{
         margin-top: 80px;
     }
     
-    .about{
+    div .about{
         justify-content: center;
         margin-top: 20px;
         padding-top:30px;
         margin-left: 10px;
         padding-bottom: 140px;
-        padding-left:19px;
+        padding-left:0px;
         width:100%;
         z-index: 0;
         font-family: "POPPINS";
         align-items: center;
         vertical-align: middle;
         z-index: 1;
-    }
-    
-    .aboutsection{
+        }
+        
+        div .aboutsection{
         display: flex;
         flex-wrap: wrap;
         text-align: center;
@@ -2127,42 +2127,42 @@ hr{
         margin-right: auto;
         width: 100%;
         height:100%;
-    }
-    .aboutwords{
+        }
+        .aboutwords{
         width:450px;
         font-size: 18px;
         animation: appear 5s linear;
         animation-timeline: view();
         animation-range: entry 10% cover 20%;
-    }
-    .aboutinsides{
-    color:#ffffff;
-    }
-    .aboutinsides img{
+        }
+        .aboutinsides{
+        color:#ffffff;
+        }
+        .aboutinsides img{
         width:180px;
         height:160px;
         border-radius: 41%;
         justify-content: center;
         vertical-align: middle;
         }
-    .aboutheader{
+        .aboutheader{
         font-size:28px;
-    }
-    #abt1{
+        }
+        #abt1{
         display: flex;
         text-align: end;
-      }
-      #abt1 i{
+        }
+        #abt1 i{
          margin-top:1px;
          font-size: 20px;
-       }
-    hr{
+        }
+        hr{
         width:364px;
         margin-left: -1%;
         margin-top:-30px;
         margin-bottom: -30px;
-    }
-    .aboutwords0{
+        }
+        .aboutwords0{
         margin-left: auto;
         margin-right: auto;
         width:auto;
@@ -2170,9 +2170,9 @@ hr{
         animation: appear 5s linear;
         animation-timeline: view();
         animation-range: entry 10% cover 20%;
-    }
-    
-    #copyright{
+        }
+        
+        #copyright{
         width:100%;
         height:25px;
         padding-top:7px;
@@ -2183,7 +2183,7 @@ hr{
         font-family:"POPPINS";
         font-size: 13px;
         font-weight: bolder;
-    }
+        }
     
     }
 
@@ -2217,7 +2217,7 @@ hr{
     background: #ffffff;
     margin-top: -300px;
     padding-top: 50px;
-    margin-left: 30px;
+    margin-left: 5px;
     margin-right:70px;
     padding-bottom: 80px;
     width:100%;
@@ -2229,15 +2229,15 @@ flex-wrap: wrap;
 justify-content: center;
   }
   #highlightimages{
-    width: 370px;
+    width: 360px;
     height: 340px;
     z-index: 0;
     margin:30px 30px 0 30px;
     box-shadow: 0 1px 7px 6px #646244;
   }
   #highlightimages:hover{
-    width: 470px;
-    height: 440px;
+    width: 420px;
+    height: 360px;
     z-index: 0;
     margin:30px 30px 0 30px;
     box-shadow: 0 1px 7px 6px #646244;
@@ -2316,7 +2316,7 @@ justify-content: center;
 } 
 .homeabouttext{
     margin-top: 120px;
-    width: 430px;
+    width: 360px;
     font-size: 19px;
     font-weight: lighter;
     font-stretch: condensed;
@@ -2457,9 +2457,9 @@ justify-content: center;
     justify-content: center;
     margin-top: 20px;
     padding-top:30px;
-    margin-left: 10px;
+    margin-left: 0px;
     padding-bottom: 140px;
-    padding-left:19px;
+    padding-left:0px;
     width:100%;
     z-index: 0;
     font-family: "POPPINS";
@@ -2561,12 +2561,14 @@ justify-content: center;
 }
 
 .about{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
     padding-top:30px;
-    margin-left: 10px;
+    margin-left: 0px;
     padding-bottom: 140px;
-    padding-left:19px;
+    padding-left:10px;
     width:100%;
     z-index: 0;
     font-family: "POPPINS";
@@ -2589,7 +2591,7 @@ justify-content: center;
 }
 .aboutwords{
     text-align: center;
-    width:450px;
+    width:410px;
     font-size: 18px;
     animation: appear 5s linear;
     animation-timeline: view();
@@ -2600,7 +2602,7 @@ color:#ffffff;
 }
 .aboutinsides img{
     padding-top: 30px;
-    margin-left: -9px;
+    margin-left: -18px;
     width:80px;
     height:80px;
     border-radius: 41%;
@@ -2628,7 +2630,7 @@ margin-right: auto;
     margin-bottom: -30px;
 }
 .aboutwords0{
-    width:240px;
+    width:210px;
     margin-right:auto;
     margin-left: auto;
     text-align: center;
