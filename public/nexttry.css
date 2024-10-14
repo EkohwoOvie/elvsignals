@@ -1621,16 +1621,21 @@ hr{
         flex-direction: row;
         color: #17a387;
         width: 40px;
-        text-align: start;
+        text-align: center;
         background-color:#fff;
         position: relative;
         margin-left: 1%;
         font-size: 30px;
+        border-radius: 50%;
+    }
+    div #boxx i{
+        align-items: center;
+        border-radius: 50%;
     }
     div #boxx{
-        line-height: 30px;
+        padding-top: 20px;
         align-items: center;
-        border-radius: 30px 40px 50px 50px;
+        border-radius: 50px 50px 50px 50px;
         margin-top: 2px;
         margin-left: 1%;
         width: 100%;
