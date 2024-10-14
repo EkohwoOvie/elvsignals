@@ -300,17 +300,17 @@ input:checked ~ .slide{
     color: #ffffff;
   }
   div #aboutheader1{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 800;
     color:#ffffff;
-    width:360px;
+    width:340px;
     text-align: start;
   }
 
   #aboutheader1 hr{
     margin-left: -2px;
     margin-bottom: 10px;
-    padding-top: 5px;
+    padding-top: 3px;
     width:220px;
     background-color:#17a387;
     height:1px;
@@ -335,8 +335,8 @@ input:checked ~ .slide{
 } 
 .homeabouttext{
     margin-top: 120px;
-    width: 430px;
-    font-size: 18px;
+    width: 350px;
+    font-size: 16px;
     font-weight: lighter;
     font-stretch: condensed;
     font-family:"Poppins";
@@ -1273,7 +1273,7 @@ hr{
     align-items: flex-start;
     margin-top: 10px;
     padding-top:10px;
-    margin-left: 10px;
+    margin-left: 0px;
     padding-bottom: 0px;
     padding-left:5px;
     width:100%;
@@ -1287,7 +1287,7 @@ hr{
 #subservicetitle{
     display:inline-block;
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-right:20px;
     margin-left:5px;
     margin-right: 5px;
@@ -1299,14 +1299,14 @@ hr{
     margin-top: 40px;
 }
 .textsubservice{
-    width:360px;
+    width:340px;
     height:320px;
    
 }
 
 .firstsubservice{
     color:#17a387;
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .secondsubservice{
@@ -1694,7 +1694,7 @@ svg{
     }
     .aboutwords{
         text-align: center;
-        width:410px;
+        width:380px;
         font-size: 18px;
         animation: appear 5s linear;
         animation-timeline: view();

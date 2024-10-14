@@ -1159,8 +1159,9 @@ hr{
     background: #ffffff;
     margin-top: 20px;
     padding-bottom: 80px;
-    margin-left: 30px;
-    margin-right:70px;
+    padding-left: 14px;
+    margin-left:0px;
+    margin-right:40px;
     width:100%;
     z-index: 0;
   }
@@ -1197,7 +1198,7 @@ hr{
 .homeabouttext{
     margin-top: 30px;
     padding:15px;
-    width: 350px;
+    width: 340px;
     font-size: 18px;
     font-weight: lighter;
     font-stretch: condensed;
@@ -1458,7 +1459,7 @@ hr{
 }
 .aboutwords{
     text-align: center;
-    width:410px;
+    width:380px;
     font-size: 18px;
     animation: appear 5s linear;
     animation-timeline: view();
@@ -1469,7 +1470,7 @@ color:#ffffff;
 }
 .aboutinsides img{
     padding-top: 30px;
-    margin-left: -18px;
+    margin-left: -19px;
     width:80px;
     height:80px;
     border-radius: 41%;

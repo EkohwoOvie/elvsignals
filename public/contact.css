@@ -24,7 +24,7 @@ body{
  #page1{
      width:100%;
      height:80%;
-     background:aliceblue;
+     background: #b2b2b2;
  }
  #page2{
      margin-top:30px;
@@ -935,7 +935,7 @@ nav a:hover{
        }
        #contaact{
            margin-top: -160px;
-           margin-left: -30%;
+           margin-left: 5px;
            background-color: #9f7107;
            box-shadow: 0 1px 7px 6px #f3eb96;
            height: 50px;
@@ -948,15 +948,15 @@ nav a:hover{
            font-weight: bolder;
            font-family: "lilita One";
            margin-top: 12px;
-           margin-left: 12%;
-           width: 100%;
+           margin-left: 7%;
+           width: 300px;
        }
        #navhide{
            font-size: 22px;
            width: 200px;
            text-align: center;
            justify-content: center;
-           margin-left: 27%;
+           margin-left: 20%;
            color:#3b3b42;
        }
        #navhide i{
@@ -1185,7 +1185,7 @@ hr{
  div .contactbody hr{
   text-align: center;
     justify-content: center;
-    margin-left: 34%;
+    margin-left: 29%;
  }
  div .contactbody p{
     text-align: center;
@@ -1237,7 +1237,7 @@ hr{
  }
  .contactbody{
     width:409px;
-    margin-left: 0px;
+    margin-left: -16px;
     margin-top: 120px;
     font-family: "POPPINS";
  }
@@ -1458,7 +1458,8 @@ hr{
 }
 .aboutwords{
     text-align: center;
-    width:410px;
+    width:370px;
+    padding-right: 5px;
     font-size: 18px;
     animation: appear 5s linear;
     animation-timeline: view();
