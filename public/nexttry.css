@@ -547,7 +547,7 @@ nav a:hover{
 @keyframes slideo{
     0%, 30%, 50%, 70%, 90%{
         opacity:1;
-        scale:99%;
+        scale:100%;
     }
     20%, 40%, 60%, 80%, 100%{
         scale:100%;
