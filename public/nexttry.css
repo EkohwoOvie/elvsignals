@@ -24,22 +24,23 @@ body{
 }
 /*PAGES*/
 #page1{
-    width:102%;
+    width:100%;
+    margin-left: 0px;
     height:200%;
     background-size: cover;
 }
 #page2{
     margin-top:350px;
-    width:102%;
+    width:100%;
     height: 100%;
     margin-left: 0px;
     background: rgb(197, 196, 196);
     background-size: cover;
 } 
 #page3{
-    width:103%;
+    width:100%;
     height: 100%;
-    margin-left: 0px;
+    margin-left: 8px;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('solarnet2.webp');
     background-size: cover;
 }
@@ -527,9 +528,10 @@ nav a:hover{
 
 
 .slider{
-    width: 100%;
+    width: 106%;
     height: 1010px;
-    margin:auto;
+    margin-left:auto;
+    margin-right: auto;
     position: relative;
     overflow: hidden;
     background-size: cover;
@@ -545,7 +547,8 @@ nav a:hover{
  
 }
 .list img{
-    width: 1550px;
+    width: 1600px;
+    margin-left:10px;
     background-size:cover;
     object-fit: cover;
     height: 100%;
@@ -564,8 +567,8 @@ nav a:hover{
 .buttons{
     position: absolute;
     top: 45%;
-    left:2%;
-    width: 97%;
+    left:5%;
+    width: 92%;
     display: flex;
     justify-content: space-between;
    }
@@ -899,7 +902,7 @@ ul li a i{
     object-fit: cover;
  }
  #page1{
-    margin-left: -2%;
+    margin-left: 2%;
  }
  .buttons{
     position: absolute;
@@ -1467,10 +1470,10 @@ hr{
 @media  (max-width: 950px){
     .slider{
         height: 900px;
-        width: 103%;
+        width: 106%;
         margin-left: 1px;
     }
-#page{
+#page1{
     width:100%;
 }
     #tophead{
@@ -1674,20 +1677,20 @@ hr{
         width: 100%;
      }
      .list img{
-        width: 942px;
+        width: 963px;
         height: 100%;
         overflow: hidden;
         object-fit: cover;
      }
      #stack{
-        width: 99%;
+        width: 100%;
      }
      .buttons{
         position: absolute;
         top: 45%;
         margin-left: 2%;
-        left:2%;
-        width: 94%;
+        left:5%;
+        width: 91%;
         display: flex;
         justify-content: space-between;
        }
