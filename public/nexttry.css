@@ -17,9 +17,9 @@
 /*page1*/
 body{
    font-family: "Open Sans", sans-serif;
-   background: aliceblue;
+   background: #fff;
    margin: 0;
-   width: 100%;
+   width: 98%;
 }
 /*PAGES*/
 #page1{
@@ -531,6 +531,7 @@ nav a:hover{
     margin:auto;
     position: relative;
     overflow: hidden;
+    background-size: cover;
 }
 .list{
     position:relative;
@@ -1465,8 +1466,8 @@ hr{
 @media  (max-width: 950px){
     .slider{
         height: 900px;
-        width: 102%;
-        margin-left: 12px;
+        width: 103%;
+        margin-left: 1px;
     }
 #page{
     width:100%;
@@ -1668,14 +1669,17 @@ hr{
         z-index: 1;
         box-shadow: 0 4px 7px 6px rgb(129, 129, 129);  
      }
+     body{
+        width: 100%;
+     }
      .list img{
-        width: 938px;
+        width: 942px;
         height: 100%;
         overflow: hidden;
         object-fit: cover;
      }
      #stack{
-        width: 101%;
+        width: 99%;
      }
      .buttons{
         position: absolute;
@@ -1921,7 +1925,7 @@ hr{
         background: #ffffff;
         margin-top: 20px;
         padding-bottom: 80px;
-        margin-left: 32px;
+        margin-left: 23px;
         margin-right:70px;
         width:100%;
         z-index: 0;
@@ -1971,7 +1975,8 @@ hr{
         padding-top:30px;
         margin-left: 10px;
         padding-bottom: 20px;
-        padding-left:19px;
+        padding-left:12px;
+        background-size: cover;
         width:100%;
         z-index: 0;
         font-family: "POPPINS";
@@ -2347,9 +2352,9 @@ justify-content: center;
     background: #ffffff;
     margin-top: 20px;
     padding-bottom: 80px;
-    margin-left: 5px;
+    margin-left: 0px;
     margin-right:70px;
-    width:100%;
+    width:104%;
     z-index: 0;
   }
   .homeabouttext button{
