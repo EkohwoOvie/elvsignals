@@ -855,6 +855,8 @@ div .homeabout{
         box-shadow: 0 1px 7px 6px #f3eb96;
         height: 50px;
         z-index: 1;
+        margin-left: 0;
+        margin-right: 0;
     }
     #contaact p{
         text-align: center;
@@ -899,9 +901,8 @@ div .homeabout{
     }
     .slide{
         height: 100%;
-        width: 50%;
+        width: 40%;
         margin-left: 3px;
-        position: absolute;
         background-color:transparent;
         transition: 0.5s ease;
         transform: translateY(-1080px);
@@ -938,7 +939,7 @@ div .homeabout{
     }
     ul li a{
         margin-left:1%;
-        width: 600px;
+        width: 100%;
         text-align:justify;
         background-color: #fff;
         font-weight: bolder;
