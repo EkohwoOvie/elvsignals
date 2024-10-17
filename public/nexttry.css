@@ -25,6 +25,7 @@ body{
 #page1{
     width:100%;
     height:200%;
+    background-size: cover;
 }
 #page2{
     margin-top:350px;
@@ -32,6 +33,7 @@ body{
     height: 100%;
     margin-left: 0px;
     background: rgb(197, 196, 196);
+    background-size: cover;
 } 
 #page3{
     width:100%;
