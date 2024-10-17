@@ -19,24 +19,25 @@ body{
    font-family: "Open Sans", sans-serif;
    background: #fff;
    margin-left:auto;
-   margin-right: auto;
+   margin-right:auto;
+   width:100%;
 }
 /*PAGES*/
 #page1{
-    width:100%;
+    width:102%;
     height:200%;
     background-size: cover;
 }
 #page2{
     margin-top:350px;
-    width:100%;
+    width:102%;
     height: 100%;
     margin-left: 0px;
     background: rgb(197, 196, 196);
     background-size: cover;
 } 
 #page3{
-    width:100%;
+    width:103%;
     height: 100%;
     margin-left: 0px;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('solarnet2.webp');
