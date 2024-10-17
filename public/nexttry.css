@@ -19,6 +19,7 @@ body{
    font-family: "Open Sans", sans-serif;
    background: aliceblue;
    margin: 0;
+   width: 100%;
 }
 /*PAGES*/
 #page1{
@@ -1462,7 +1463,7 @@ hr{
 @media  (max-width: 950px){
     .slider{
         height: 900px;
-        width: 101%;
+        width: 102%;
         margin-left: 12px;
     }
 #page{
@@ -1666,7 +1667,7 @@ hr{
         box-shadow: 0 4px 7px 6px rgb(129, 129, 129);  
      }
      .list img{
-        width: 925px;
+        width: 938px;
         height: 100%;
         overflow: hidden;
         object-fit: cover;
