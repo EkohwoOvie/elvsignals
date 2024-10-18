@@ -752,7 +752,7 @@ nav a:hover{
     .slider{
         height: 900px;
         width: 101.5%;
-        margin-left:-9.4px;
+        margin-left:-12px;
         margin-right: 0;
         padding-left: 0;
         padding-right: 0;
@@ -766,7 +766,7 @@ padding: 0;
 div #page1{
     width: 100vw;
     padding: 0;
-    margin-left: 20px;
+    margin:0;
     background-color: #17a387;  
 }
 #page2{
@@ -790,7 +790,7 @@ div .homeabout{
 }
 #stack{
     width: 100%;
-    margin-left: 0;
+    margin-left: -7px;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
@@ -1008,6 +1008,7 @@ div .homeabout{
      .list img{
         width: 1000px;
         height: 100%;
+        margin-left: 12px;
         object-fit: cover;
         background-size: cover;
      }
