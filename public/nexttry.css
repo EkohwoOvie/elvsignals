@@ -1084,13 +1084,13 @@ div .homeabout{
         height:40px;
         cursor: pointer;
     }
-    .dots{
+   div .dots{
         position: absolute;
         bottom: 90px;
         color: #bc3e3e;
         text-align: center;
         margin-top:-60%;
-        margin-left: 9%;
+        margin-left: 10%;
         margin-right: auto;
         padding: 0;
         display: flex;
