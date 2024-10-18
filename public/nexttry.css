@@ -903,7 +903,7 @@ div .homeabout{
     .slide{
         height: 100%;
         width: 50%;
-        margin-left: 1px;
+        margin-left: -4px;
         background-color:transparent;
         transition: 0.5s ease;
         transform: translateY(-1080px);
