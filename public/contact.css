@@ -25,22 +25,24 @@ body{
      width:100%;
      height:80%;
      background: #b2b2b2;
-     margin-left: auto;
-     margin-right: auto;
+     margin-left:0;
+     margin-right:0;
+     padding-left: 0;
+     padding-right: 0;
  }
  #page2{
      margin-top:30px;
      width:100%;
      height: 100%;
-     margin-left:auto;
-     margin-right: auto;
+     margin-left:0;
+     margin-right:0;
     background:#b2b2b2;
-     background-size: cover;
  } 
  #page3{
      width:100%;
      height: 100%;
-     margin-left: -9px;
+     margin-left:0;
+     margin-right: 0;
      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('solarnet2.webp');
      background-size: cover;
  }
@@ -49,6 +51,8 @@ body{
      display:grid;
      position:fixed;
      width:100%;
+     margin-left: 0;
+     margin-right: 0;
      margin-top: -165px;
      z-index: 1;
  }
@@ -200,19 +204,20 @@ input:checked ~ .slide{
     font-weight: bolder;
     padding-top: 5px;
     padding-bottom: 30px;
-    padding-left: 40px;
-    margin-left:0px;
+    padding-left:0;
+    margin-left:0;
     margin-top:220px;
  }
  .aboutbanner p{
     margin-left: 10px;
+    padding-left: 20px;
     height: 2px;
     margin-bottom: -12px;
  }
  .aboutbanner hr{
     width:265px;
     height:5px;
-    margin-left: 4px;
+    margin-left: 2%;
     font-weight: bolder;
     background-color:aliceblue;
     box-shadow: 0 1px 7px 6px #f5f1c2;
@@ -226,7 +231,7 @@ input:checked ~ .slide{
     background:#1e2e92;
     margin-top: 30px;
     padding-bottom: 80px;
-    margin-left: 30px;
+    margin-left: 0px;
     margin-right:70px;
     width:100%;
     z-index: 0;
@@ -341,10 +346,11 @@ input:checked ~ .slide{
     flex-direction: row;
     background:#1abc9c;
     color:aliceblue;
-    margin-left: -10px;
+    margin-left: 0;
     margin-top: -140px;
     height: 100px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #contaact{
     z-index: 0;
@@ -357,6 +363,8 @@ input:checked ~ .slide{
 #topperhead{
     width:100%;
     height: 80px;
+    margin-left: 0;
+    margin-right: 0;
     position: relative;
     background:midnightblue;
     display:flex;
@@ -524,6 +532,8 @@ nav{
     text-align: start;
     align-items: center;
     margin-top: -167px;
+    margin-left: 0;
+    margin-right: 0;
     padding-top: 5.5px;
     padding-bottom: 5px;
     width: 100%;
@@ -673,19 +683,8 @@ nav a:hover{
 100%{
     transform: translateX(100%);
 }}
-nav{
-    margin-top: -186px;
-    height: 60px;
-    background-color: #9f7107;
 
-}
-#contaact{
-    margin-top: -120px;
-    background-color: #9f7107;
-    box-shadow: 0 1px 7px 6px #f3eb96;
-    height: 60px;
-    z-index: 1;
-}
+
 #contaact p{
     text-align: center;
     justify-content: center;
@@ -924,6 +923,8 @@ hr{
     }}
     nav{
         margin-top: -175px;
+        margin-left: 0;
+        margin-right: 0;
         height: 60px;
         background-color: #9f7107;
     
@@ -936,7 +937,8 @@ hr{
     }
     #contaact{
         margin-top: -160px;
-        margin-left: -30%;
+        margin-left: 0;
+        margin-right: 0;
         background-color: #000000;
         box-shadow: 0 1px 7px 6px #f3eb96;
         height: 50px;
@@ -956,12 +958,9 @@ hr{
 div #stack{
 margin-top: 55px;
 width: 100%;
+margin-left: 0;
+margin-right: 0;
 }
-div nav {
-width:100%;
-margin-bottom: 20px;
-}
-
 
 
 }
@@ -1001,19 +1000,7 @@ margin-bottom: 20px;
    100%{
        transform: translateX(100%);
    }}
-   nav{
-       margin-top: -186px;
-       height: 60px;
-       background-color: #9f7107;
-   
-   }
-   #contaact{
-       margin-top: -120px;
-       background-color: #9f7107;
-       box-shadow: 0 1px 7px 6px #f3eb96;
-       height: 60px;
-       z-index: 1;
-   }
+
    #contaact p{
        text-align: center;
        justify-content: center;
@@ -1116,18 +1103,7 @@ margin-bottom: 20px;
        z-index: 1;
        box-shadow: 0 4px 7px 6px rgb(129, 129, 129);  
     }
-    .homeserv p{
-       font-size: 12px;
-       font-weight: bolder;
-       color: #17a387;
-       background:#ffffff;
-       border-radius: 50px 50px 50px 50px;
-       padding-left: 10px;
-       padding-top: 2px;
-       padding-right: 15px;
-       padding-bottom: 8px;
-       margin-right: 10px;
-    }
+
     .about{
        justify-content: center;
        margin-top: 20px;
@@ -1215,7 +1191,31 @@ margin-bottom: 20px;
    
    }
    @media  (max-width: 950px){
-
+    body{
+        width:100%;
+    margin: 0;
+    padding: 0;
+        }
+    div #page1{
+        width: 100vw;
+        padding: 0;
+        margin:0;
+        background-color: #17a387;  
+    }
+    div #page2{
+        width: 100%;
+        padding: 0;
+        margin-left:0;
+        margin-right: 0;
+        
+    }
+    #page3{
+        width: 100%;
+        padding: 0;
+        margin-left:0;
+        margin-right: 0;
+        
+    }
        #tophead{
            line-height: 50px;
            text-align: start;
@@ -1250,9 +1250,11 @@ margin-bottom: 20px;
        100%{
            transform: translateX(100%);
        }}
-       nav{
-            width: 80%;
+      nav{
+            width: 100%;
            margin-top: -175px;
+           margin-left: 0;
+           margin-right: 0;
            height: 60px;
            background-color: #9f7107;
        
@@ -1263,9 +1265,12 @@ margin-bottom: 20px;
        #maincontact{
            margin-top: -300px;
        }
-       #contaact{
+       div #contaact{
            margin-top: -160px;
-           margin-left: 5px;
+           margin-left: 0;
+           margin-right: 0;
+           padding-left: 0;
+           padding-right: 0;
            width: 100%;
            background-color: #9f7107;
            box-shadow: 0 1px 7px 6px #f3eb96;
@@ -1423,6 +1428,7 @@ margin-bottom: 20px;
 div .aboutbanner {
  margin-top: 90px;
  width: 100%;
+ 
 }
 #aboutheader1{
    width: 80%;
@@ -1430,11 +1436,13 @@ div .aboutbanner {
 div #stack{
    margin-top: -30px;
    width: 100%;
+   margin-left: 0;
+   margin-right: 0;
+   padding-left: 0;
+   padding-right: 0;
    position: fixed;
 }
-div nav {
-   width:100%;
-}
+
 div .homeserv p{
    border-radius: 50px 50px 50px 50px;
    font-size: 19px;
@@ -1443,7 +1451,9 @@ div .homeserv p{
 }
 div .homeserv{
    width: 100%;
-   margin-left: -10px;
+   margin-left:0;
+   margin-right: 0;
+   padding-right: 0;
 }
 div #gallerygrid{
    width: 80%;
@@ -1465,7 +1475,7 @@ div .about{
    justify-content: center;
    margin-top: 20px;
    padding-top:30px;
-   margin-left: 10px;
+   margin-left: 0;
    padding-bottom: 140px;
    padding-left:0px;
    padding-right: 10px;
@@ -1594,7 +1604,7 @@ font-size: 22px;
          }
  }
  .block{
-     margin-left:-20px;
+     margin-left:0px;
      position: relative;
      animation: appear 5s linear;
      animation-timeline: view();
@@ -1660,9 +1670,9 @@ font-size: 22px;
     align-items: center;
     margin-top: 20px;
     padding-top:30px;
-    margin-left: 10px;
+    margin-left: 0px;
     padding-bottom: 30px;
-    padding-left:19px;
+    padding-left:0;
     width:100%;
     z-index: 0;
     font-family: "POPPINS";
@@ -1704,23 +1714,7 @@ font-size: 22px;
    box-shadow: 0 1px 7px 6px #ffffff;
 } 
  
- .homegallery{
-     background:#ffffff;
-     justify-content: center;
-     margin-top: 50px;
-     padding-top:30px;
-     margin-left: 10px;
-     padding-bottom: 140px;
-     padding-left:19px;
-     width:100%;
-     z-index: 0;
-     font-family: "POPPINS";
-     align-items: center;
-     vertical-align: middle;
-     animation: appear 7s linear;
-     animation-timeline: view();
-     animation-range: entry 10% cover 20%;
- }
+
  .gallerytitle{
      text-align: center;
      align-items: center;
