@@ -513,11 +513,11 @@ nav a:hover{
 }
 @media (max-width:650px){
     nav a{
-        margin-left: -900px;
+       opacity: 0;
     }
     #maincontact{
-        margin-left: -900px;
-    }
+        opacity: 0;
+        }
     nav{
         height: 5px;
     }
@@ -762,11 +762,11 @@ nav a:hover{
 margin: 0;
 padding: 0;
     }
-#page1{
+div #page1{
     width: 100%;
     padding: 0;
     margin: 0;
-   
+    background-color: #17a387;  
 }
 #page2{
     width: 100%;
@@ -939,7 +939,7 @@ div .homeabout{
     }
     ul li a{
         margin-left:1%;
-        width: 100%;
+        width: 600px;
         text-align:justify;
         background-color: #fff;
         font-weight: bolder;
