@@ -513,11 +513,11 @@ nav a:hover{
 }
 @media (max-width:650px){
     nav a{
-       opacity: 0;
+        margin-left: -900px;
     }
     #maincontact{
-        opacity: 0;
-        }
+        margin-left: -900px;
+    }
     nav{
         height: 5px;
     }
@@ -759,11 +759,12 @@ nav a:hover{
         overflow:hidden;
     }
     body{
+    width:100%;
 margin: 0;
 padding: 0;
     }
 div #page1{
-    width: 100%;
+    width: 100vw;
     padding: 0;
     margin: 0;
     background-color: #17a387;  
