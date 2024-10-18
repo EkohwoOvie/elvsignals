@@ -1204,14 +1204,18 @@ div .homeabout{
         margin-right: 0;
       }
     
-    #highlights img {
+    div #highlights img {
         background: #ffffff;
         z-index: 0;
+        width:300px;
+        height: 300px;
       }
-      
-      #highlightimages {
-        width: 340px;
-        height: 340px;
+      div #highlights img:hover{
+        width: 320px;
+      }
+      div #highlightimages {
+        width: 300px;
+        height: 300px;
         z-index: 0;
         margin:30px 30px 0 30px;
         box-shadow: 0 1px 7px 6px #646244;
