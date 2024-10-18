@@ -766,7 +766,7 @@ padding: 0;
 div #page1{
     width: 100vw;
     padding: 0;
-    margin: 0;
+    margin-left: 20px;
     background-color: #17a387;  
 }
 #page2{
