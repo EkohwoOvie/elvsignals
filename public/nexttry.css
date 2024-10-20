@@ -573,7 +573,7 @@ nav a:hover{
     position: absolute;
     top: 45%;
     left:5%;
-    width: 92%;
+    width: 87%;
     display: flex;
     justify-content: space-between;
    }
@@ -2570,11 +2570,11 @@ margin-right: auto;
     margin-bottom: -30px;
 }
 .aboutwords0{
-    width:210px;
+    width:220px;
     margin-right:auto;
     margin-left: auto;
     text-align: center;
-    padding-right: 20px;
+    padding-right:0;
     animation: appear 5s linear;
     animation-timeline: view();
     animation-range: entry 10% cover 20%;
